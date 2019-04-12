@@ -5,9 +5,9 @@ What it's about:
 
 *Ronald Fisher* a renowned biologist and statistician used *The Iris Dataset* in his 1936 paper *The Use of Multiple Measurements in Taxonomic Problems*. It is a multivariate dataset and Fisher used it in the development of his linear discriminate model which distinguishes the species from each other. 
 
-![Iris Setosa](Iris_setosa.jpg)
-![Iris Virginica](Iris_virginica.jpg)
-![Iris Versicolor](Iris_versicolor.jpg)
+![](Images\Iris_setosa)
+![](Images\Iris_virginica)
+![](Images\Iris_versicolor)
 
 
 How it was collected:
