@@ -1,13 +1,13 @@
 # PandS-Project-2019
-####Fisher's Iris Data Set####
+####Fisher's Iris Data Set
 
 What it's about:
 
 *Ronald Fisher* a renowned biologist and statistician used *The Iris Dataset* in his 1936 paper *The Use of Multiple Measurements in Taxonomic Problems*. It is a multivariate dataset and Fisher used it in the development of his linear discriminate model which distinguishes the species from each other. 
 
-![](Images\Iris_setosa)
-![](Images\Iris_virginica)
-![](Images\Iris_versicolor)
+![](Images\Iris_setosa.jpg)
+![](Images\Iris_virginica.jpg)
+![](Images\Iris_versicolor.jpg)
 
 
 How it was collected:
@@ -20,7 +20,7 @@ Who is Ronald Fisher:
 
 Some additional information on the dataset:
 
-#My Work#
+#My Work
 
 My aim
 What do I want to learn from project
@@ -35,21 +35,21 @@ Possible Tools - Multivariate dataset
 *Significance Testing
 *Regression
 
-##My Project - What it's about##
+##My Project - What it's about
 
-##Python Code - How it use##
-
-
-##Python Code to Investigate The Iris Dataset##
+##Python Code - How it use
 
 
-##Summary of My Investigations##
+##Python Code to Investigate The Iris Dataset
 
 
-##Tables/Graphs##
+##Summary of My Investigations
 
 
-##References##
+##Tables/Graphs
+
+
+##References
 
 [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 [Kaggle](https://www.kaggle.com/uciml/iris)
