@@ -1,5 +1,12 @@
-# PandS-Project-2019
-####Fisher's Iris Data Set
+
+### Edel Corcoran G00010824
+### Higher Diploma in Data Analytics GMIT
+### Module: Progamming and Scripting 52445 
+### PandS-Project-2019
+### Lecturer: Ian McLoughlin
+
+
+#### Fisher's Iris Data Set
 
 What it's about:
 
@@ -20,39 +27,41 @@ Who is Ronald Fisher:
 
 Some additional information on the dataset:
 
-#My Work
+## My Work
 
-My aim
+1. My aim
 What do I want to learn from project
 
-Approach:
+2. Approach:
 Strengths/Weaknesses of techniques used
 
-Possible Tools - Multivariate dataset
-*Line Charts
-*Bar Charts
-*Ratios
-*Significance Testing
-*Regression
+3. Possible Tools - Multivariate dataset
+* Line Charts
+* Bar Charts
+* Ratios
+* Significance Testing
+* Regression
 
-##My Project - What it's about
+## My Project - What it's about
 
-##Python Code - How it use
-
-
-##Python Code to Investigate The Iris Dataset
+## Python Code - How it use
 
 
-##Summary of My Investigations
+## Python Code to Investigate The Iris Dataset
+
+The Iris Dataset is available to view by running the file named 'iris_dataset.py'. All the columns and rows within the dataset with numerical values in cms are visible.
 
 
-##Tables/Graphs
+## Summary of My Investigations
 
 
-##References
+## Tables/Graphs
 
-[Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set)
-[Kaggle](https://www.kaggle.com/uciml/iris)
+
+## References
+
+[Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) accessed 11/04/19
+[Kaggle](https://www.kaggle.com/uciml/iris)accessed 11/04/19
 [Iris Setosa Image](https://en.wikipedia.org/wiki/Iris_setosa) accessed 12/04/19
 [Iris Virginica Image](https://en.wikipedia.org/wiki/Iris_virginica) accessed 12/04/19
 [Iris Versicolor Image](https://en.wikipedia.org/wiki/Iris_versicolor) accessed 12/04/19
