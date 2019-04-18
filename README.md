@@ -1,12 +1,12 @@
 
-<div align="center">## **Edel Corcoran ID#:G00010824**</div>
-<div align="center">## Higher Diploma in Data Analytics GMIT</div>
-<div align="center">## Module: Progamming and Scripting 52445</div>
-<div align="center">## PandS-Project-2019</div>
-<div align="center">## Lecturer: Ian McLoughlin</div>
+<div align="center"> ## Edel Corcoran ID#:G00010824</div>
+<div align="center"> ## Higher Diploma in Data Analytics GMIT</div>
+<div align="center"> ## Module: Progamming and Scripting 52445</div>
+<div align="center"> ## PandS-Project-2019</div>
+<div align="center"> ## Lecturer: Ian McLoughlin</div>
 
 
-<div align="center">### **Fisher's Iris Data Set**</div>
+## Fisher's Iris Data Set
 
 1. What it's about:
 
@@ -30,7 +30,7 @@ The dataset examines three species of Iris: Iris Setosa, Iris Virginica and Iris
 
 
 
-<div align="center">###**Sir Ronald Aylmer Fisher**</div>
+## Sir Ronald Aylmer Fisher
 
 ![Sir Ronald Fisher 1890-1962](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/SirRonaldFisher.JPG)
 
@@ -52,12 +52,12 @@ Some additional information on the dataset:
 
 
 
-<div align="center">### **How To Use The Python Code**</div>
+## How To Use The Python Code
 
 The Iris Dataset is available to view by running the file named 'iris_dataset.py'. All the columns and rows within the dataset with numerical values in cms are visible.
 
 
-<div align="center">### **My Work**</div>
+## My Work
 
 1. My Project - What it's about/My aims
 
@@ -73,13 +73,13 @@ Strengths/Weaknesses of techniques used
 * Significance Testing
 * Regression
 
-## Tables/Graphs
+### <div align="center">Tables/Graphs</div>
 
-<div align="center">## **Summary**</div>
+## Summary
 
 
 
-<div align="center">### References/Sources<div/>
+## References/Sources
 
 [Iris Versicolor Image](https://en.wikipedia.org/wiki/Iris_versicolor) accessed 12/04/19
 1. https://study.com/academy/lesson/sir-ronald-fisher-biography-contributions-to-statistics.html viewed 16/4/19
