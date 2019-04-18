@@ -18,9 +18,9 @@ In simple terms, the *Iris* is a plant and the *Iris Dataset* is a small study c
 The Iris flower data set is a well-known data set example for data mining and data exploration, it's also often used to demonstrate simple machine learning techniques.
 
 
-![](Images\Iris_setosa.jpg)
-![](Images\Iris_virginica.jpg)
-![](Images\Iris_versicolor.jpg)
+![alt text](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_setosa.jpg) 
+![alt text](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_virginica.jpg)
+![alt text ](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_versicolor.jpg)
 
 
 How it was collected:
@@ -31,6 +31,7 @@ The dataset examines three species of Iris: Iris Setosa, Iris Virginica and Iris
 
 
 Who is Ronald Fisher:
+
 
 In 1980 Sir Ronald Aylmer Fisher was born into a wealthy family in London, England. At the age of 19 he entered the University of Cambridge as a student where he studied mathematics before persuing the study of physics at postgraduate level which including studying the theory of errors, a topic which heightened his interest in statistics. After college he worked for a time as a statistician in the Mercantile and General Investment Company in London al well as becoming a teacher of mathematics and physics. 
 
