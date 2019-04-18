@@ -10,7 +10,13 @@
 
 What it's about:
 
-*Ronald Fisher* a renowned biologist and statistician used *The Iris Dataset* in his 1936 paper *The Use of Multiple Measurements in Taxonomic Problems*. It is a multivariate dataset and Fisher used it in the development of his linear discriminate model which distinguishes the species from each other. 
+
+In simple terms, the *Iris* is a plant and the *Iris Dataset* is a small study containing 150 observations and it's primary purpose is discriminating between three species of Iris from measurements of their petals and sepals. In the dataset four attributes of each plant were measured: sepal length, sepal width, petal length and petal width.
+
+*Ronald Fisher* a renowned biologist and statistician selected the *Iris Dataset* to illustrate the techniques described in his 1936 paper *The Use of Multiple Measurements in Taxonomic Problems* on discriminant analysis. It is a multivariate dataset and Fisher used it in the development of his linear discriminate model which distinguishes the species from each other. 
+
+The Iris flower data set is a well-known data set example for data mining and data exploration, it's also often used to demonstrate simple machine learning techniques.
+
 
 ![](Images\Iris_setosa.jpg)
 ![](Images\Iris_virginica.jpg)
@@ -19,11 +25,27 @@ What it's about:
 
 How it was collected:
 
-The dataset examines three species of Iris: Iris Setosa, Iris Virginica and Irish Versicolor. The dataset is a compilations of 150 records, there is 50 samples of each species were which were used to measure specific features including the length and width of the sepals and petals. 
+The dataset examines three species of Iris: Iris Setosa, Iris Virginica and Irish Versicolor. The dataset is a compilations of 150 records, there is 50 samples of each species which were used to measure specific features including the length and width of the sepals and petals. 
+
+
 
 
 Who is Ronald Fisher:
 
+In 1980 Sir Ronald Aylmer Fisher was born into a wealthy family in London, England. At the age of 19 he entered the University of Cambridge as a student where he studied mathematics before persuing the study of physics at postgraduate level which including studying the theory of errors, a topic which heightened his interest in statistics. After college he worked for a time as a statistician in the Mercantile and General Investment Company in London al well as becoming a teacher of mathematics and physics. 
+
+
+In 1917, Fisher married Ruth Guinness. They had two sons and seven daughters, one of whom died in infancy.
+
+In 1919 following a short teaching career Fisher was offered and accepted the post of statistician at an agricultural research institute called the 'Rothamsted Agricultural Experiment Station'. 
+
+Throughout Fisher lifetime he invented experimental design and was one of the principal founders of population genetics. He introduced the term variance and proposed its formal analysis. At Rothamsted, Fisher analysed crop data recorded over many years which led to his first application of the analysis of variance 'ANOVA'. In 1924 Fisher created the 'F distribution' , he later introduced the concept of 'null hypothesis'.
+
+During his lifetime Fisher published 7 books and almost 400 academic research papers in the fields of statistics and genetics. He is considered by many to be the father of modern statistics given the enormous and profound contribution he made to the field of statistics through his work and research studies. 
+
+Amongst his many other achievements Fisher was in 1933 appointed Professor of Eugenics at University College London. In 1943 he was appointed to the Balfour Chair of Genetics at the University of Cambridge. In 1952 Fisher was knighted by Queen Elizabeth, becoming Sir Ronald Aylmer Fisher.He was also the recipient of several honorary degrees from universities including Harvard (1936), University of Calcutta (1938), University of London (1946), University of Glasgow (1947), University of Adelaide (1959), University of Leeds (1961), and the Indian Statistical Institute (1962). 
+
+In 1962 at the age of 72 Sir Ronald Fisher died in Adelaide Australia, he suffered from colon cancer.
 
 Some additional information on the dataset:
 
@@ -58,10 +80,14 @@ The Iris Dataset is available to view by running the file named 'iris_dataset.py
 ## Tables/Graphs
 
 
-## References
+## References/Sources
 
 [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) accessed 11/04/19
 [Kaggle](https://www.kaggle.com/uciml/iris)accessed 11/04/19
 [Iris Setosa Image](https://en.wikipedia.org/wiki/Iris_setosa) accessed 12/04/19
 [Iris Virginica Image](https://en.wikipedia.org/wiki/Iris_virginica) accessed 12/04/19
 [Iris Versicolor Image](https://en.wikipedia.org/wiki/Iris_versicolor) accessed 12/04/19
+https://study.com/academy/lesson/sir-ronald-fisher-biography-contributions-to-statistics.html viewed 16/4/19
+https://www.famousscientists.org/ronald-fisher/ viewed 17/04/19
+http://www-history.mcs.st-andrews.ac.uk/Biographies/Fisher.html viewed 17/4/19
+
