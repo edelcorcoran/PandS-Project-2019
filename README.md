@@ -1,14 +1,14 @@
 
-### Edel Corcoran G00010824
-### Higher Diploma in Data Analytics GMIT
-### Module: Progamming and Scripting 52445 
-### PandS-Project-2019
-### Lecturer: Ian McLoughlin
+<div align="center">## **Edel Corcoran ID#:G00010824**</div>
+<div align="center">## Higher Diploma in Data Analytics GMIT</div>
+<div align="center">## Module: Progamming and Scripting 52445</div>
+<div align="center">## PandS-Project-2019</div>
+<div align="center">## Lecturer: Ian McLoughlin</div>
 
 
-#### Fisher's Iris Data Set
+<div align="center">### **Fisher's Iris Data Set**</div>
 
-What it's about:
+1. What it's about:
 
 
 In simple terms, the *Iris* is a plant and the *Iris Dataset* is a small study containing 150 observations and it's primary purpose is discriminating between three species of Iris from measurements of their petals and sepals. In the dataset four attributes of each plant were measured: sepal length, sepal width, petal length and petal width.
@@ -18,23 +18,23 @@ In simple terms, the *Iris* is a plant and the *Iris Dataset* is a small study c
 The Iris flower data set is a well-known data set example for data mining and data exploration, it's also often used to demonstrate simple machine learning techniques.
 
 
-![alt text](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_setosa.jpg) 
-![alt text](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_virginica.jpg)
-![alt text ](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_versicolor.jpg)
+![Iris Setosa](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_setosa.jpg) 
+![Iris Virginica](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_virginica.jpg)
+![Iris Versicolor](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_versicolor.jpg)
 
 
-How it was collected:
+2. How it was collected:
 
 The dataset examines three species of Iris: Iris Setosa, Iris Virginica and Irish Versicolor. The dataset is a compilations of 150 records, there is 50 samples of each species which were used to measure specific features including the length and width of the sepals and petals. 
 
 
 
 
-Who is Ronald Fisher:
+<div align="center">###**Sir Ronald Aylmer Fisher**</div>
 
+![Sir Ronald Fisher 1890-1962](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/SirRonaldFisher.JPG)
 
-In 1980 Sir Ronald Aylmer Fisher was born into a wealthy family in London, England. At the age of 19 he entered the University of Cambridge as a student where he studied mathematics before persuing the study of physics at postgraduate level which including studying the theory of errors, a topic which heightened his interest in statistics. After college he worked for a time as a statistician in the Mercantile and General Investment Company in London al well as becoming a teacher of mathematics and physics. 
-
+In 1890 Sir Ronald Aylmer Fisher was born into a wealthy family in London, England. At the age of 19 he entered the University of Cambridge as a student where he studied mathematics before persuing the study of physics at postgraduate level which including studying the theory of errors, a topic which heightened his interest in statistics. After college he worked for a time as a statistician in the Mercantile and General Investment Company in London al well as becoming a teacher of mathematics and physics. 
 
 In 1917, Fisher married Ruth Guinness. They had two sons and seven daughters, one of whom died in infancy.
 
@@ -46,13 +46,21 @@ During his lifetime Fisher published 7 books and almost 400 academic research pa
 
 Amongst his many other achievements Fisher was in 1933 appointed Professor of Eugenics at University College London. In 1943 he was appointed to the Balfour Chair of Genetics at the University of Cambridge. In 1952 Fisher was knighted by Queen Elizabeth, becoming Sir Ronald Aylmer Fisher.He was also the recipient of several honorary degrees from universities including Harvard (1936), University of Calcutta (1938), University of London (1946), University of Glasgow (1947), University of Adelaide (1959), University of Leeds (1961), and the Indian Statistical Institute (1962). 
 
-In 1962 at the age of 72 Sir Ronald Fisher died in Adelaide Australia, he suffered from colon cancer.
+In 1962 at the age of 72 Sir Ronald Fisher died in Adelaide Australia, he suffered from colon cancer. [1,2,3]
 
 Some additional information on the dataset:
 
-## My Work
 
-1. My aim
+
+<div align="center">### **How To Use The Python Code**</div>
+
+The Iris Dataset is available to view by running the file named 'iris_dataset.py'. All the columns and rows within the dataset with numerical values in cms are visible.
+
+
+<div align="center">### **My Work**</div>
+
+1. My Project - What it's about/My aims
+
 What do I want to learn from project
 
 2. Approach:
@@ -65,30 +73,26 @@ Strengths/Weaknesses of techniques used
 * Significance Testing
 * Regression
 
-## My Project - What it's about
-
-## Python Code - How it use
-
-
-## Python Code to Investigate The Iris Dataset
-
-The Iris Dataset is available to view by running the file named 'iris_dataset.py'. All the columns and rows within the dataset with numerical values in cms are visible.
-
-
-## Summary of My Investigations
-
-
 ## Tables/Graphs
 
+<div align="center">## **Summary**</div>
 
-## References/Sources
 
-[Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) accessed 11/04/19
-[Kaggle](https://www.kaggle.com/uciml/iris)accessed 11/04/19
-[Iris Setosa Image](https://en.wikipedia.org/wiki/Iris_setosa) accessed 12/04/19
-[Iris Virginica Image](https://en.wikipedia.org/wiki/Iris_virginica) accessed 12/04/19
+
+<div align="center">### References/Sources<div/>
+
 [Iris Versicolor Image](https://en.wikipedia.org/wiki/Iris_versicolor) accessed 12/04/19
-https://study.com/academy/lesson/sir-ronald-fisher-biography-contributions-to-statistics.html viewed 16/4/19
-https://www.famousscientists.org/ronald-fisher/ viewed 17/04/19
-http://www-history.mcs.st-andrews.ac.uk/Biographies/Fisher.html viewed 17/4/19
+1. https://study.com/academy/lesson/sir-ronald-fisher-biography-contributions-to-statistics.html viewed 16/4/19
+2. https://www.famousscientists.org/ronald-fisher/ viewed 17/04/19
+3. http://www-history.mcs.st-andrews.ac.uk/Biographies/Fisher.html viewed 17/4/19
+4. [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) accessed 11/04/19
+5. [Kaggle](https://www.kaggle.com/uciml/iris)accessed 11/04/19
+
+Image Sources:
+
+[Iris Setosa](https://en.wikipedia.org/wiki/Iris_setosa) accessed 12/04/19
+[Iris Virginica](https://en.wikipedia.org/wiki/Iris_virginica) accessed 12/04/19
+[Iris Versicolor](https://en.wikipedia.org/wiki/Iris_versicolor) accessed 12/04/19
+[Sir Ronald Fisher](https://en.wikipedia.org/wiki/File:Youngronaldfisher2.JPG) viewed 18/4/19
+
 
