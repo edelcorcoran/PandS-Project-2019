@@ -1,9 +1,9 @@
 
-<div align="center"> ## Edel Corcoran ID#:G00010824</div>
-<div align="center"> ## Higher Diploma in Data Analytics GMIT</div>
-<div align="center"> ## Module: Progamming and Scripting 52445</div>
-<div align="center"> ## PandS-Project-2019</div>
-<div align="center"> ## Lecturer: Ian McLoughlin</div>
+## <div align="center">Edel Corcoran ID#:G00010824</div>
+## <div align="center">Higher Diploma in Data Analytics GMIT</div>
+## <div align="center">Module: Progamming and Scripting 52445</div>
+## <div align="center">PandS-Project-2019</div>
+## <div align="center">Lecturer: Ian McLoughlin</div>
 
 
 # Fisher's Iris Dataset
@@ -21,18 +21,16 @@ In simple terms, the *Iris* is a plant and the *Iris Dataset* is a small study c
 The Iris flower data set is a well-known data set example for data mining and data exploration, it's also often used to demonstrate simple machine learning techniques.
 
 
-![Iris Setosa](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_setosa.jpg) 
+<p align="center">![Iris Setosa](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_setosa.jpg)</p>
 
-![Iris Virginica](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_virginica.jpg)
+<p align="center">![Iris Virginica](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_virginica.jpg)</p>
 
-![Iris Versicolor](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_versicolor.jpg)
+<p align="center">![Iris Versicolor](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_versicolor.jpg)</p>
 
 
 #### How It Was Collected?
 
 The dataset examines three species of Iris: Iris Setosa, Iris Virginica and Irish Versicolor. The dataset is a compilations of 150 records, there is 50 samples of each species which were used to measure specific features including the length and width of the sepals and petals. 
-
-
 
 
 ## Sir Ronald Aylmer Fisher
