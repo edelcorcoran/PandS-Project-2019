@@ -6,9 +6,9 @@
 ## <div align="center">Lecturer: Ian McLoughlin</div>
 
 
-# Fisher's Iris Dataset
+# <div align="center">Fisher's Iris Dataset</div>
 
-##Brief Intoduction
+## Brief Intoduction
 
 
 #### What Is It About?
@@ -16,17 +16,30 @@
 
 In simple terms, the *Iris* is a plant and the *Iris Dataset* is a small study containing 150 observations and it's primary purpose is discriminating between three species of Iris from measurements of their petals and sepals. In the dataset four attributes of each plant were measured: sepal length, sepal width, petal length and petal width.
 
+The Iris flower data set is a well-known data set example for data mining and data exploration, it's also often used to demonstrate simple machine learning techniques. 
+
 *Ronald Fisher* a renowned biologist and statistician selected the *Iris Dataset* to illustrate the techniques described in his 1936 paper *The Use of Multiple Measurements in Taxonomic Problems* on discriminant analysis. It is a multivariate dataset and Fisher used it in the development of his linear discriminate model which distinguishes the species from each other. 
 
-The Iris flower data set is a well-known data set example for data mining and data exploration, it's also often used to demonstrate simple machine learning techniques.
 
 
-<p align="center">![Iris Setosa](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_setosa.jpg)</p>
 
-<p align="center">![Iris Virginica](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_virginica.jpg)</p>
+<p align="center">Iris Setosa<p align="center">
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_setosa.jpg">
+</p>
 
-<p align="center">![Iris Versicolor](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_versicolor.jpg)</p>
+<p align="center">Iris Virginica<p align="center">
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_virginica.jpg">
+</p>
 
+<p align="center">Iris Versicolor<p align="center">
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/Iris_versicolor.jpg">
+</p>
+
+For those that are not green fingered and to avoid any confusion going forward, the image below gives a simple visual to help understand the various parts of a flower/plant and petal and sepal are clearly labelled. 
+
+<p align="center">Petal vs Sepal<p align="center">
+<p align="center"><img src="https://cdn-images-1.medium.com/max/1200/1*HPHOq7k53J4p1QY9ODf47g.gif">
+</p>
 
 #### How It Was Collected?
 
@@ -35,7 +48,10 @@ The dataset examines three species of Iris: Iris Setosa, Iris Virginica and Iris
 
 ## Sir Ronald Aylmer Fisher
 
-<p align="center">![Sir Ronald Fisher 1890-1962](https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/SirRonaldFisher.JPG)</p>
+<p align="center">Sir Ronald Aylmer Fisher (1890-1962)<p align="center">
+  
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/Images/SirRonaldFisher.JPG">
+</p>
 
 In 1890 Sir Ronald Aylmer Fisher was born into a wealthy family in London, England. At the age of 19 he entered the University of Cambridge as a student where he studied mathematics before persuing the study of physics at postgraduate level which including studying the theory of errors, a topic which heightened his interest in statistics. After college he worked for a time as a statistician in the Mercantile and General Investment Company in London al well as becoming a teacher of mathematics and physics. 
 
@@ -59,15 +75,20 @@ Some additional information on the dataset:
 
 The Iris Dataset is available to view by running the file named 'iris_dataset.py'. All the columns and rows within the dataset with numerical values in cms are visible.
 
-Software:
-Python via Anaconda
-Visual Studio Code
+Software Downloads:
+
+[Python](https://www.python.org/downloads/) via [Anaconda](https://www.anaconda.com/distribution/#download-section) version 3.7
+
+[Visual Studio Code](https://code.visualstudio.com/)
 
 Libraries imported in code scripts:
-Numpy (np)
-Pandas (pd)
-Matplotlib (plt)
-Seaborn
+
+Links below for further information
+- [Numpy as np](https://www.numpy.org/)
+- [Pandas as pd](https://pandas.pydata.org/)
+- [Matplotlib as plt](https://matplotlib.org/) 
+- [Seaborn as sns](https://seaborn.pydata.org/)
+
 
 
 ## My Work
@@ -92,19 +113,20 @@ Strengths/Weaknesses of techniques used
 
 
 
-## References/Sources
+## References/Bibliography
 
 1. https://study.com/academy/lesson/sir-ronald-fisher-biography-contributions-to-statistics.html viewed 16/4/19
 2. https://www.famousscientists.org/ronald-fisher/ viewed 17/04/19
 3. http://www-history.mcs.st-andrews.ac.uk/Biographies/Fisher.html viewed 17/4/19
-4. [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) accessed 11/04/19
-5. [Kaggle](https://www.kaggle.com/uciml/iris)accessed 11/04/19
+4. [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) viewed 11/04/19
+5. [Kaggle](https://www.kaggle.com/uciml/iris) vieweded 11/04/19 source for iris.csv file
+
 
 Image Sources:
 
 - [Iris Setosa](https://en.wikipedia.org/wiki/Iris_setosa) accessed 12/04/19
 - [Iris Virginica](https://en.wikipedia.org/wiki/Iris_virginica) accessed 12/04/19
 - [Iris Versicolor](https://en.wikipedia.org/wiki/Iris_versicolor) accessed 12/04/19
-- [Sir Ronald Fisher](https://en.wikipedia.org/wiki/File:Youngronaldfisher2.JPG) viewed 18/4/19
-
+- [Sir Ronald Fisher](https://en.wikipedia.org/wiki/File:Youngronaldfisher2.JPG) accessed 18/4/19
+- [Petal vs Sepal](https://cdn-images-1.medium.com/max/1200/1*HPHOq7k53J4p1QY9ODf47g.gif) accessed 18/4/19
 
