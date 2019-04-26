@@ -4,10 +4,8 @@
 #Ref: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html?highlight=dataset%20describe
 
 
-#Import libraries
-import numpy as np
+#Import library
 import pandas as pd
-import matplotlib.pyplot as plt
 
 #Import iris.csv file to use
 data = ("iris.csv")
