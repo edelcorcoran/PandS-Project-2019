@@ -101,11 +101,11 @@ What do I want to learn from project
 Strengths/Weaknesses of techniques used
 
 3. Possible Tools - Multivariate dataset
-* Line Charts
-* Bar Charts
-* Ratios
-* Significance Testing
-* Regression
+* Dataset Describe
+* Iris Statistics Overview
+* Ratios/Pivot Table - Categorised Means
+* Correlation Matrix
+* Scatterplot
 
 ### <div align="center">Tables/Graphs</div>
 
@@ -129,4 +129,8 @@ Image Sources:
 - [Iris Versicolor](https://en.wikipedia.org/wiki/Iris_versicolor) accessed 12/04/19
 - [Sir Ronald Fisher](https://en.wikipedia.org/wiki/File:Youngronaldfisher2.JPG) accessed 18/4/19
 - [Petal vs Sepal](https://cdn-images-1.medium.com/max/1200/1*HPHOq7k53J4p1QY9ODf47g.gif) accessed 18/4/19
+
+Code Sources:
+- [Kaggle](https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis/notebook) accessed 30/3/19
+- [Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html?highlight=dataset%20describe) accessed 30/3/19
 
