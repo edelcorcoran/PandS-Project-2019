@@ -125,6 +125,9 @@ Strengths/Weaknesses of techniques used
 </p>
 
 
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression.png">
+</p>
+
 
 
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/boxplot.png">
