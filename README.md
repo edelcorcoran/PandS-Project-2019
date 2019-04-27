@@ -107,6 +107,41 @@ Strengths/Weaknesses of techniques used
 * Correlation Matrix
 * Scatterplot
 
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/iris_dataset.png">
+</p>
+
+
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/iris_stats.png">
+</p>
+
+
+
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/pivot_table.png">
+</p>
+
+
+
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression_species.png">
+</p>
+
+
+
+
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/boxplot.png">
+</p>
+
+
+
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/boxplot_subplots.png">
+</p>
+
+
+
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/correlation_matrix.png">
+</p>
+
+
+
 ### <div align="center">Tables/Graphs</div>
 
 ## Summary
@@ -121,6 +156,12 @@ Strengths/Weaknesses of techniques used
 4. [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) viewed 11/04/19
 5. [Kaggle](https://www.kaggle.com/uciml/iris) vieweded 11/04/19 source for iris.csv file
 
+Bibliography:
+
+- [Numpy as np](https://www.numpy.org/)
+- [Pandas as pd](https://pandas.pydata.org/)
+- [Matplotlib as plt](https://matplotlib.org/) 
+- [Seaborn as sns](https://seaborn.pydata.org/)
 
 Image Sources:
 
