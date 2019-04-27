@@ -8,7 +8,7 @@
 
 # <div align="center">Fisher's Iris Dataset</div>
 
-## Brief Intoduction
+## Intoduction
 
 
 #### What Is It About?
@@ -108,9 +108,33 @@ Strengths/Weaknesses of techniques used
 * Boxplots
 * Linear Regression
 
+In order to get a clear overview and understanding of the data involved I started by downloading a copy of of the Iris Dataset and used the pandas library to view the data:
+
+File: iris_dataset.py
+
+Python Code used: 
+import pandas as pd
+data = pd.read_csv('iris.csv') 
+print(data)
+
+Below is a screenshot of the first ten rows of the output. You can clearly see the columns with the four attributes with numerical values in cms (Petal Length, Petal Width, Sepal Length and Sepal Width) and a column outlining the species (Setosa/Virginica/Versicolor). 
+
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/irisdataset.png">
 </p>
 
+
+I gathered some basic statistics and distributions by running the 'describe' code, this gave a brief summary of the mean, maximum, minimum, standard diviation and percentiles (25%/50%/75%) of the four attributes in the dataset.
+
+File: iris_stats.py
+
+Python Code used: 
+
+import pandas as pd
+data = ("iris.csv")
+iris = pd.read_csv(data, header=0)
+print(iris.describe())
+
+There is a scsreenshot of the output of the python script below which illustrates the summary statistics of the dataset.
 
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/irisstats.png">
 </p>
@@ -145,8 +169,6 @@ Strengths/Weaknesses of techniques used
 </p>
 
 
-
-### <div align="center">Tables/Graphs</div>
 
 ## Summary
 
