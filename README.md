@@ -158,7 +158,7 @@ print(data)
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/pivottable.png">
 </p>
 
-The seaborn library was imported to generate the 'lmplot'.
+The seaborn library was imported to generate the 'lmplot', the linear line across our plot is the best fit for the trend of the sepal width with respect to the sepal length. There are two images firstly you see the linear regression for each species the Setosa (blue), Versicolor(orange) and Virginoca (green), the second image plots all three species on the same grid which help visualise the difference/similarity between the various species. Similar code and logic were used to generate the petal lenght/width linear regression images.
 
 Files: linear_regression.py / linear_regression_species.py
 
