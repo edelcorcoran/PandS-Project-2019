@@ -134,17 +134,47 @@ data = ("iris.csv")
 iris = pd.read_csv(data, header=0)
 print(iris.describe())
 
-There is a scsreenshot of the output of the python script below which illustrates the summary statistics of the dataset.
+There is a screenshot of the output of the python script below which illustrates the summary statistics of the dataset.
 
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/irisstats.png">
 </p>
 
+Whilst the 'describe' code outlined basic statistics like mean/min/max for each attribute in the dataset, these statistics aren't broken down by species. A pivot table plot generated using the pandas library helps give better statistics by breaking the statistics into the various species ie. it's possible to view the mean of each attribute by species. 
 
+For example the mean sepal length for the dataset is 5.84333cms, but the pivot table outlines that the actual mean sepal length for Setosa is 1.464cm, for Versicolor it's 4.26cms and for Virginica it's 5.552cms. You can view mean values for each attribute by species in the screenshot below, this help's to better understand the differences between the species.
+
+File: pivot_table.py
+
+Python Code used:
+
+import pandas as pd
+import numpy as np
+
+iris = pd.read_csv('iris.csv')
+iris.head(10)
+data = pd.pivot_table(iris,index=["Species"],values=["SepalLengthCm","SepalWidthCm","PetalLengthCm","PetalWidthCm"],aggfunc=[np.mean,len])
+print(data)
 
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/pivottable.png">
 </p>
 
+The seaborn library was imported to generate the 'lmplot'.
 
+Files: linear_regression.py / linear_regression_species.py
+
+Python Code used:
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+iris = pd.read_csv('iris.csv')
+sns.lmplot(x = "SepalLengthCm", y = "SepalWidthCm", hue='Species', data=iris)
+plt.show()
+
+and also:
+
+sns.lmplot(x = "SepalLengthCm", y = "SepalWidthCm",col='species', hue='Species', data=iris)
+plt.show()
 
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression_species.png">
 </p>
