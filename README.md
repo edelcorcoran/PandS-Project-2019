@@ -105,18 +105,19 @@ Strengths/Weaknesses of techniques used
 * Iris Statistics Overview
 * Ratios/Pivot Table - Categorised Means
 * Correlation Matrix
-* Scatterplot
+* Boxplots
+* Linear Regression
 
-<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/iris_dataset.png">
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/irisdataset.png">
 </p>
 
 
-<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/iris_stats.png">
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/irisstats.png">
 </p>
 
 
 
-<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/pivot_table.png">
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/pivottable.png">
 </p>
 
 
