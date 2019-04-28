@@ -110,7 +110,7 @@ Strengths/Weaknesses of techniques used
 
 In order to get a clear overview and understanding of the data involved I started by downloading a copy of of the Iris Dataset and used the pandas library to view the data:
 
-File: iris_dataset.py
+File: 'iris_dataset.py'
 
 Python Code used: 
 import pandas as pd
@@ -122,10 +122,9 @@ Below is a screenshot of the first ten rows of the output. You can clearly see t
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/irisdataset.png">
 </p>
 
-
 I gathered some basic statistics and distributions by running the 'describe' code, this gave a brief summary of the mean, maximum, minimum, standard diviation and percentiles (25%/50%/75%) of the four attributes in the dataset.
 
-File: iris_stats.py
+File: 'iris_stats.py'
 
 Python Code used: 
 
@@ -143,7 +142,7 @@ Whilst the 'describe' code outlined basic statistics like mean/min/max for each 
 
 For example the mean sepal length for the dataset is 5.84333cms, but the pivot table outlines that the actual mean sepal length for Setosa is 1.464cm, for Versicolor it's 4.26cms and for Virginica it's 5.552cms. You can view mean values for each attribute by species in the screenshot below, this help's to better understand the differences between the species.
 
-File: pivot_table.py
+File: 'pivot_table.py'
 
 Python Code used:
 
@@ -160,7 +159,7 @@ print(data)
 
 The seaborn library was imported to generate the 'lmplot', the linear line across our plot is the best fit for the trend of the sepal width with respect to the sepal length. There are two images firstly you see the linear regression for each species the Setosa (blue), Versicolor(orange) and Virginoca (green), the second image plots all three species on the same grid which help visualise the difference/similarity between the various species. Similar code and logic were used to generate the petal lenght/width linear regression images.
 
-Files: linear_regression.py / linear_regression_species.py
+Files: 'linear_regression.py' / 'linear_regression_species.py'
 
 Python Code used:
 
@@ -179,26 +178,70 @@ plt.show()
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression_species.png">
 </p>
 
-
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression.png">
 </p>
 
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression_petal_species.png">
+</p>
+
+<p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression_petal.png">
+</p>
+
+Again several libraries were imported to create boxplots for the dataset as well as subplots which help visualise the differences and similaries between the species. Similarly to the linear regression images, here I have looked at the attributes for the dataset before breaking the data down into the individual species in order to visualise the similarities and differences.
+
+Files: 'boxplot.py' and 'boxplot_subplots.py' 
+
+Python Code used:
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+iris = pd.read_csv('iris.csv')
+sns.set()
+iris.boxplot()
+plt.title('Iris Dataset Boxplot')
+plt.ylabel('Length in CM')
+plt.show()
+
+Also for subplots:
+
+iris = pd.read_csv('iris.csv')
+plt.style.use('ggplot')
+plt.subplot(2,2,1)
+sns.boxplot(x="Species", y="SepalLengthCm", data=iris)
+plt.subplot(2,2,2)
+sns.boxplot(x="Species", y="SepalWidthCm", data=iris)
+plt.subplot(2,2,3)
+sns.boxplot(x="Species", y="PetalLengthCm", data=iris)
+plt.subplot(2,2,4)
+sns.boxplot(x="Species", y="PetalWidthCm", data=iris)
+plt.show()
 
 
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/boxplot.png">
 </p>
 
-
-
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/boxplot_subplots.png">
 </p>
 
+A correlation matrix was generated to help analyse which if any of the attributes in the dataset correlate to each other. A scale is visible to the right of the image, this gives an understanding of how the matrix works. The closer the numerical value in a cell is to 1 the higher the correlation between the attributes connected to that cell. ie. it's clear there is a high correlation between petal width and petal length as the numerical values in those cells is 0.96.
 
+Files: 'correlation_matrix.py'
+
+Python Code used:
+
+iris = pd.read_csv("iris.csv")
+corr = iris.corr()
+plt.figure(figsize=(10,8)) 
+ax = plt.axes()
+sns.heatmap(corr, xticklabels=corr.columns.values, yticklabels=corr.columns.values,cmap='plasma', annot=True)
+ax.set_title('Correlation Matrix')
+plt.show()
 
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/correlation_matrix.png">
 </p>
-
-
 
 ## Summary
 
