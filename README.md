@@ -259,6 +259,12 @@ and also:
 
 Again several libraries were imported to create boxplots for the dataset as well as subplots which help visualise the differences and similaries between the species. Similarly to the linear regression images, here I have looked at the attributes for the dataset before breaking the data down into the individual species in order to visualise the similarities and differences.
 
+The boxplot images show a box with whiskers. The box contains the middle 50% of the distribution and the whiskers illustrate the upper and lower quartiles. A line is visible inside each box which indicates the median value for the attribute.
+
+It's clear from the 'boxplot.png' image that the largest range in values exists in the petal length attribute and the smallest range is in the sepal width. 
+
+Upon inspection it's also evident when looking at the 'boxplot_subplot.png' which gives boxplots for each attribute broken down into species that the petal length attribute is the feature which illustrates the largest diversity. It's visibly very clear how much smaller the Setosa is to the Virginica/Versicolor. Likewise, it appears to be the sepal width that has the least difference between the species. 
+
 **Files:** 'boxplot.py' and 'boxplot_subplots.py' 
 
 **Python Code:**
