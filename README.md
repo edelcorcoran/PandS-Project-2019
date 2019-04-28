@@ -73,7 +73,7 @@ The dataset examines three species of Iris: Iris Setosa, Iris Virginica and Iris
 - It's somestimes referred to as the 'Anderson's Iris dataset' as it was he who collected the data.
 - It's a good dataset for predictive modeling & machine learning.
 
-#2.Sir Ronald Aylmer Fisher
+# 2. Sir Ronald Aylmer Fisher
 
 <p align="center">Sir Ronald Aylmer Fisher (1890-1962)<p align="center">
   
@@ -94,18 +94,18 @@ Amongst his many other achievements Fisher was in 1933 appointed Professor of Eu
 
 In 1962 at the age of 72 Sir Ronald Fisher died in Adelaide Australia, he suffered from colon cancer. [1,2,3]
 
-#3. How To Use The Python Code / Contents 
+# 3. How To Use The Python Code / Contents 
 
 This repository contain my images and code scripts to the Iris Project for Module 52445.
 
-Instructions on how to download:
+**Instructions on how to download:**
 
 Download and install the following programs:Anaconda, Visual Studio Code and CMDER command line. They will enable you to view and run the programs/code in the repository.
 
 Go to my repository on GitHub: [Repository](https://github.com/edelcorcoran/PandS-Project-2019).
 Once the repository is open click on the clone/download button.
 
-Instrucions to Run:
+**Instructions to Run:**
 
 - Open Cmder or Anaconda.
 - Save the repositoy folder to your computer.
@@ -115,7 +115,7 @@ Instrucions to Run:
 
 - There a word document called 'RunningScripts.docx', this file shows some screenshots of one of the python scripts being run using CMDER and ipython. It may be useful for those new to this software.
 
-Contents:
+**Contents:**
 - Readme
 - Images Folder - which holds photos obtained online which were saved in case any changes are made to the website which may have effected the photos if linked to the sites.
 - iris.cvs 
@@ -144,7 +144,7 @@ Contents:
 
 The images and python scripts are discussed in detail below and the images are screenshots of the output which you should get if you run the relevant script.
 
-Software Downloads:
+**Software Downloads:**
 
 [Python](https://www.python.org/downloads/) via [Anaconda](https://www.anaconda.com/distribution/#download-section) version 3.7
 
@@ -160,7 +160,7 @@ Links below for further information
 
 The Iris Dataset is available to view by running the file named 'iris_dataset.py'. All the columns and rows within the dataset with numerical values in cms are visible.
 
-#4.My Investigations/Research
+# 4.My Investigations/Research
 
 **Tools Used to Analyses Dataset**:
 - Dataset Describe/View
@@ -308,7 +308,7 @@ A correlation matrix was generated to help analyse which if any of the attribute
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/correlation_matrix.png">
 </p>
 
-## Main Findings/Conclusions
+## 5. Main Findings/Conclusions
 
 Statistical Analysis:
 
@@ -325,7 +325,7 @@ It is fair to say that simply by inspecting some of the images contained in this
 The graphs and tables contained in this project help to visualise and analysis the various species of iris, clear similarities and differences are evident between the three species. Further study and analysis could look deeper into predictive analysis and more algorithms to help proof the probable species of randomly selected particularly given that Fisher's main ambition with his linear discriminant model when working on the Iris dataset was to distinguish the species from each other.
 
 
-## References/Bibliography
+## 6. References/Bibliography
 
 1. https://study.com/academy/lesson/sir-ronald-fisher-biography-contributions-to-statistics.html viewed 16/4/19
 2. https://www.famousscientists.org/ronald-fisher/ viewed 17/04/19
