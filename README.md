@@ -45,6 +45,8 @@ For those that are not green fingered and to avoid any confusion going forward, 
 
 The dataset examines three species of Iris: Iris Setosa, Iris Virginica and Irish Versicolor. The dataset is a compilations of 150 records, there is 50 samples of each species which were used to measure specific features including the length and width of the sepals and petals. 
 
+"It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"." []
+
 
 ## Sir Ronald Aylmer Fisher
 
@@ -91,13 +93,9 @@ Links below for further information
 
 
 
-## My Work
+## My Ivestigations/Research
 
- What it's about/My aims
-
-What do I want to learn from project
-
-
+The primary focus of this project is to research the Iris Dataset, to use python scripts and plots to analyse, visualise and clarify whether there are any trends or patterns betweens the Iris species observed in the dataset. On a basis level I extracted statisical data from the dataset to help compare the various attributes of the three species to help identify similarities and differences. On a more complex level I utilised python scripts to generate plots and tables in regards to linear regression and correlation to determine whether any trends were evident. Fisher's studies in regards to the Iris dataset was to use a linear discrinant model to distinguish the various Iris species, in this short project I hope to proof clear differences/similaries between the species and confirm with any particular feature or attribute helps distinguish the various species apart.
 
 **Tools Used to Analyses Dataset**:
 - Dataset Describe/View
@@ -121,6 +119,7 @@ In order to get a clear overview and understanding of the data involved I starte
 
 Below is a screenshot of the first ten rows of the output. You can clearly see the columns with the four attributes with numerical values in cms (Petal Length, Petal Width, Sepal Length and Sepal Width) and a column outlining the species (Setosa/Virginica/Versicolor). 
 
+<div align="center">Fig:1 Iris Dataset Overview</div>
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/irisdataset.png">
 </p>
 
@@ -139,6 +138,7 @@ I gathered some basic statistics and distributions by running the 'describe' cod
 
 There is a screenshot of the output of the python script below which illustrates the summary statistics of the dataset.
 
+<div align="center">Fig 2: Iris Statisical Overview</div>
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/irisstats.png">
 </p>
 
@@ -155,6 +155,7 @@ For example the mean sepal length for the dataset is 5.84333cms, but the pivot t
 - iris.head(10)
 - data = pd.pivot_table(iris,index=["Species"],values=["SepalLengthCm","SepalWidthCm","PetalLengthCm","PetalWidthCm"],aggfunc=[np.mean,len])
 
+<div align="center">Fig 3: Pivot Table</div>
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/pivottable.png">
 </p>
 
@@ -173,16 +174,19 @@ and also:
 
 - sns.lmplot(x = "SepalLengthCm", y = "SepalWidthCm",col='species', hue='Species', data=iris)
 
-
+<div align="center">Fig 4: Linear Regression Sepal by Species</div>
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression_species.png">
 </p>
 
+<div align="center">Fig 5: Linear Regression Sepal Comparison</div>
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression.png">
 </p>
 
+<div align="center">Fig 6: Linear Regression Petal by Species</div>
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression_petal_species.png">
 </p>
 
+<div align="center">Fig 7: Linear Regression Petal Comparison</div>
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression_petal.png">
 </p>
 
@@ -212,9 +216,12 @@ Also for subplots:
 - plt.subplot(2,2,4)
 - sns.boxplot(x="Species", y="PetalWidthCm", data=iris)
 
+
+<div align="center">Fig 8: Boxplot Iris</div>
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/boxplot.png">
 </p>
 
+<div align="center">Fig 9: Boxplot by Species</div>
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/boxplot_subplots.png">
 </p>
 
@@ -232,11 +239,25 @@ A correlation matrix was generated to help analyse which if any of the attribute
 - sns.heatmap(corr, xticklabels=corr.columns.values, yticklabels=corr.columns.values,cmap='plasma', annot=True)
 - ax.set_title('Correlation Matrix')
 
+<div align="center">Fig 10: Correlation</div>
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/correlation_matrix.png">
 </p>
 
-## Summary
+## Main Findings/Conclusions
 
+Statistical Analysis:
+
+The largest standard deviation in the dataset (iris_stats.py) was in the petal length attributes which means the findings/values were more spread out for this attribute. When you look at the various classifications the mean petal length for Setosa was 1.464 cms, it was 4.26 cm for Versicolor and 5.52 cms for Virginica (Fig.2). Clearly Virginica and Versicolor are more in line with each other and are separable from Setosa. If you reandomly selected one flower from that dataset, if it had a small petal length it's likely to be a Setosa iris. This attribute is clearly the best feature with which to distinguish the species apart.
+
+As a whole looking at the statistical data it's evident that Virginica and Versicolor are similar with Setosa being separable from them. In three of the four attributes within the dataset the Virginica species had the largest mean value (Petal length, Petal Width and Sepal length), it's also evident that in those same three attributes Versicolor had the second largest mean. In all those attributes the Setosa species had a notibly smaller mean value which makes it detachable from the other species in the dateset. (Fig.3)
+
+In the linear regression/distibution plots it's clear the distributions (dots) are more clustered for the Petal Length/Width plots (Fig.6/7) which indicates that the attributes are correlated. Likewise, it's clear from the same plots in regards to sepal length/width that these two attributes are not correlated as the distributions aren't clustered and are clearly more widespread with outliers. (Figs.4/5 )
+
+Trends/Patterns:
+
+It is fair to say that simply by inspecting some of the images contained in this project that it's clear that patterns/trends do exist within dataset. The linear regression lines for the petal length/width are more in line for the iris species than they are in the sepal length/width regression lines. It's evident also from the correcation matrix that the petal width/length are positively correlated give the output of 0.96 in the correction matrix in the respective cells. 
+
+The graphs and tables contained in this project help to visualise and analysis the various species of iris, clear similarities and differences are evident between the three species. Further study and analysis could look deeper into predictive analysis and more algorithms to help proof the probable species of randomly selected particularly given that Fisher's main ambition with his linear discriminant model when working on the Iris dataset was to distinguish the species from each other.
 
 
 ## References/Bibliography
@@ -246,6 +267,7 @@ A correlation matrix was generated to help analyse which if any of the attribute
 3. http://www-history.mcs.st-andrews.ac.uk/Biographies/Fisher.html viewed 17/4/19
 4. [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) viewed 11/04/19
 5. [Kaggle](https://www.kaggle.com/uciml/iris) vieweded 11/04/19 source for iris.csv file
+6. [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) viewed 27/4/19
 
 Bibliography:
 
@@ -263,6 +285,7 @@ Image Sources:
 - [Petal vs Sepal](https://cdn-images-1.medium.com/max/1200/1*HPHOq7k53J4p1QY9ODf47g.gif) accessed 18/4/19
 
 Code Sources:
-- [Kaggle](https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis/notebook) accessed 30/3/19
-- [Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html?highlight=dataset%20describe) accessed 30/3/19
-
+- [Kaggle - Iris CSV](https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis/notebook) accessed 30/3/19
+- [Pandas - Describe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html?highlight=dataset%20describe) accessed 30/3/19
+- [Correlation Matrix](https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis/notebook)
+- [Pivot Table](https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis/notebook)
