@@ -100,18 +100,20 @@ What do I want to learn from project
 
 
 **Tools Used to Analyses Dataset**:
-- Dataset Describe
-- Iris Statistics Overview
-- Ratios/Pivot Table - Categorised Means
+- Dataset Describe/View
+- Statistics Overview
+- Pivot Table 
 - Correlation Matrix
 - Boxplots
 - Linear Regression
 
+**View the Dataset**
+
 In order to get a clear overview and understanding of the data involved I started by downloading a copy of of the Iris Dataset and used the pandas library to view the data:
 
-File: 'iris_dataset.py'
+**File:** 'iris_dataset.py'
 
-Python Code used: 
+**Python Code:** 
 
 - import pandas as pd
 - data = pd.read_csv('iris.csv') 
@@ -122,11 +124,13 @@ Below is a screenshot of the first ten rows of the output. You can clearly see t
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/irisdataset.png">
 </p>
 
+**Statistics Overview**
+
 I gathered some basic statistics and distributions by running the 'describe' code, this gave a brief summary of the mean, maximum, minimum, standard diviation and percentiles (25%/50%/75%) of the four attributes in the dataset.
 
-File: 'iris_stats.py'
+**File:** 'iris_stats.py'
 
-Python Code used: 
+**Python Code:** 
 
 - import pandas as pd
 - data = ("iris.csv")
@@ -138,13 +142,15 @@ There is a screenshot of the output of the python script below which illustrates
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/irisstats.png">
 </p>
 
+**Pivot Table**
+
 Whilst the 'describe' code outlined basic statistics like mean/min/max for each attribute in the dataset, these statistics aren't broken down by species. A pivot table plot generated using the pandas library helps give better statistics by breaking the statistics into the various species ie. it's possible to view the mean of each attribute by species. 
 
 For example the mean sepal length for the dataset is 5.84333cms, but the pivot table outlines that the actual mean sepal length for Setosa is 1.464cm, for Versicolor it's 4.26cms and for Virginica it's 5.552cms. You can view mean values for each attribute by species in the screenshot below, this help's to better understand the differences between the species.
 
-File: 'pivot_table.py'
+**File:** 'pivot_table.py'
 
-Python Code used:
+**Python Code:**
 
 - iris.head(10)
 - data = pd.pivot_table(iris,index=["Species"],values=["SepalLengthCm","SepalWidthCm","PetalLengthCm","PetalWidthCm"],aggfunc=[np.mean,len])
@@ -152,11 +158,13 @@ Python Code used:
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/pivottable.png">
 </p>
 
+**Linear Regression**
+
 The seaborn library was imported to generate the 'lmplot', the linear line across our plot is the best fit for the trend of the sepal width with respect to the sepal length. There are two images firstly you see the linear regression for each species the Setosa (blue), Versicolor(orange) and Virginoca (green), the second image plots all three species on the same grid which help visualise the difference/similarity between the various species. Similar code and logic were used to generate the petal lenght/width linear regression images.
 
-Files: 'linear_regression.py' / 'linear_regression_species.py'
+**Files:** 'linear_regression.py' / 'linear_regression_species.py'
 
-Python Code used:
+**Python Code:**
 
 - iris = pd.read_csv('iris.csv') 
 - sns.lmplot(x = "SepalLengthCm", y = "SepalWidthCm", hue='Species', data=iris)
@@ -178,11 +186,13 @@ and also:
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression_petal.png">
 </p>
 
+**Boxplots**
+
 Again several libraries were imported to create boxplots for the dataset as well as subplots which help visualise the differences and similaries between the species. Similarly to the linear regression images, here I have looked at the attributes for the dataset before breaking the data down into the individual species in order to visualise the similarities and differences.
 
-Files: 'boxplot.py' and 'boxplot_subplots.py' 
+**Files:** 'boxplot.py' and 'boxplot_subplots.py' 
 
-Python Code used:
+**Python Code:**
 
 -iris = pd.read_csv('iris.csv')
 -sns.set()
@@ -208,11 +218,13 @@ Also for subplots:
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/boxplot_subplots.png">
 </p>
 
+**Correlation Matrix**
+
 A correlation matrix was generated to help analyse which if any of the attributes in the dataset correlate to each other. A scale is visible to the right of the image, this gives an understanding of how the matrix works. The closer the numerical value in a cell is to 1 the higher the correlation between the attributes connected to that cell. ie. it's clear there is a high correlation between petal width and petal length as the numerical values in those cells is 0.96.
 
-Files: 'correlation_matrix.py'
+**Files:** 'correlation_matrix.py'
 
-Python Code used:
+**Python Code:**
 
 - corr = iris.corr()
 - plt.figure(figsize=(10,8)) 
