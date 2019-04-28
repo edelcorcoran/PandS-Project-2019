@@ -116,31 +116,31 @@ Once the repository is open click on the clone/download button.
 - There a word document called 'RunningScripts.docx', this file shows some screenshots of one of the python scripts being run using CMDER and ipython. It may be useful for those new to this software.
 
 **Contents:**
-- Readme
-- Images Folder - which holds photos obtained online which were saved in case any changes are made to the website which may have effected the photos if linked to the sites.
-- iris.cvs 
-- iris_dataset.py
-- irisdataset.png
-- iris_stats.py
-- irisstats.png
-- pivot_table.py
-- pivottable.png
-- boxplot.py
-- boxplot.png
-- boxplot_subplots.py
-- boxplots_subplots.png
-- correlation_matrix.py
-- correlation_matrix.png
-- linear_regression.py
-- linear_regression.png
-- linear_regression_species.py 
-- linear_regression_species.png
-- linear_regression_petal.py
-- linear_regression_petal.png
-- linear_regression_petal_species.py
-- linear_regression_petal_species.png
-- RunningScripts.docx - This file shows how to run a script in CMDER command line using ipython. (For those unfamiliar with the software)
-- git
+- 'Readme' - Contains the Project 
+- 'Images Folder' - which holds photos obtained online which were saved in case any changes are made to the website which may have effected the photos if linked to the sites.
+- 'iris.cvs' - CSV File with the actual dataset.
+- 'iris_dataset.py' - Python script to allow you view the dataset.
+- 'irisdataset.png' - Image of a screenshot of the output from 'iris_dataset.py' script when it's run.
+- 'iris_stats.py' - Script outputs key statistics for the dataset.
+- 'irisstats.png' - Image of a screenshot of the output from 'iris_stats.py' script when it's run.
+- 'pivot_table.py' - Script outputs aggregated statistics for the dataset broken down by species.
+- 'pivottable.png' - Image of a screenshot of the output from 'pivot_table.py' script when it's run.
+- 'boxplot.py' - Python code to generate a boxplot of the dataset.
+- 'boxplot.png' - Image of a screenshot of the output from 'boxplot.py' script when it's run.
+- 'boxplot_subplots.py' - Python code to generate a boxplot of the dataset broken down into scpecies.
+- 'boxplots_subplots.png' - Image of a screenshot of the output from 'boxplot_subplots.py' script when it's run.
+- 'correlation_matrix.py' - Python script to generate a correlation matrix to find out if any attributes are positively corelated.
+- 'correlation_matrix.png' - Image of a screenshot of the output from 'correlation_table.py' script when it's run.
+- 'linear_regression.py' - Python Script to create a linear regression lines for the species and distribution in regards to sepal length/width. Comparison of 3 species.
+- 'linear_regression.png' - Image of a screenshot of the output from 'linear_regression.py' script when it's run. It compares the 3 species.
+- 'linear_regression_species.py' -Python Script to create a linear regression lines for the species and distribution.
+- 'linear_regression_species.png' - Image of a screenshot of the output from 'linear_regression_species.py' script when it's run. Three distinct images visible ie. each species individually.
+- 'linear_regression_petal.py' - Python Script to create a linear regression lines for the species and distribution in regards to petal length/width. Comparison of 3 species.
+- 'linear_regression_petal.png' -  Image of a screenshot of the output from 'linear_regression_petal.py' script when it's run. It compares the 3 species
+- 'linear_regression_petal_species.py' - Image of a screenshot of the output from 'linear_regression_petal_species.py' script when it's run. Three distinct images visible ie. each species individually.
+- 'linear_regression_petal_species.png'
+- 'RunningScripts.docx' - This file shows how to run a script in CMDER command line using ipython. (For those unfamiliar with the software)
+- 'git'
 
 The images and python scripts are discussed in detail below and the images are screenshots of the output which you should get if you run the relevant script.
 
