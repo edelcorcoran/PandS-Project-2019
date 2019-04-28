@@ -8,11 +8,14 @@
 
 # <div align="center">Fisher's Iris Dataset</div>
 
-## Intoduction
+# Intoduction
+
+The primary focus of this project is to research the Iris Dataset, to use python scripts and plots to analyse, visualise and clarify whether there are any trends or patterns betweens the Iris species observed in the dataset. On a basis level I extracted statisical data from the dataset to help compare the various attributes of the three species to help identify similarities and differences. On a more complex level I utilised python scripts to generate plots and tables in regards to linear regression and correlation to determine whether any trends were evident. Fisher's wanted to create a linear discriminant model to distinguish the various Iris species, in this short project I hope to proof clear differences/similaries between the species and confirm whether any particular feature or attribute helps distinguish the various species apart.
 
 
-#### What Is It About?
+# The Iris Dataset
 
+## What Is It About?
 
 In simple terms, the *Iris* is a plant and the *Iris Dataset* is a small study containing 150 observations and it's primary purpose is discriminating between three species of Iris from measurements of their petals and sepals. In the dataset four attributes of each plant were measured: sepal length, sepal width, petal length and petal width.
 
@@ -41,14 +44,14 @@ For those that are not green fingered and to avoid any confusion going forward, 
 <p align="center"><img src="https://cdn-images-1.medium.com/max/1200/1*HPHOq7k53J4p1QY9ODf47g.gif">
 </p>
 
-#### How It Was Collected?
+## How It Was Collected?
 
 The dataset examines three species of Iris: Iris Setosa, Iris Virginica and Irish Versicolor. The dataset is a compilations of 150 records, there is 50 samples of each species which were used to measure specific features including the length and width of the sepals and petals. 
 
 "It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"." []
 
 
-## Sir Ronald Aylmer Fisher
+# Sir Ronald Aylmer Fisher
 
 <p align="center">Sir Ronald Aylmer Fisher (1890-1962)<p align="center">
   
@@ -73,9 +76,52 @@ Some additional information on the dataset:
 
 
 
-## How To Use The Python Code
+# How To Use The Python Code / Contents 
 
-The Iris Dataset is available to view by running the file named 'iris_dataset.py'. All the columns and rows within the dataset with numerical values in cms are visible.
+This repository contain my images and code scripts to the Iris Project for Module 52445.
+
+Instructions on how to download:
+
+Download and install the following programs:Anaconda, Visual Studio Code and CMDER command line. They will enable you to view and run the programs/code in the repository.
+
+Go to my repository on GitHub: [Repository](https://github.com/edelcorcoran/PandS-Project-2019).
+Once the repository is open click on the clone/download button.
+
+Instrucions to Run:
+
+- Open Cmder or Anaconda.
+- Save the repositoy folder to your computer.
+- Navigate to the directory/location where you have saved/unzipped my repository.
+- In CMDER once you've navigated to the folder location, you can run ipython to run the code.
+- On the command line select the script you want to open for example type "run" followed by the file name eg. "iris_dataset.py" and click enter/return on your keyboard to open.
+
+Contents:
+- Readme
+- Images Folder - which holds photos obtained online which were saved in case any changes are made to the website which may have effected the photos if linked to the sites.
+- iris.cvs
+- iris_dataset.py
+- irisdataset.png
+- iris_stats.py
+- irisstats.png
+- pivot_table.py
+- pivottable.png
+- boxplot.py
+- boxplot.png
+- boxplot_subplots.py
+- boxplots_subplots.png
+- correlation_matrix.py
+- correlation_matrix.png
+- linear_regression.py
+- linear_regression.png
+- linear_regression_species.py
+- linear_regression_species.png
+- linear_regression_petal.py
+- linear_regression_petal.png
+- linear_regression_petal_species.py
+- linear_regression_petal_species.png
+- git
+
+The images and python scripts are discussed in detail below and the images are screenshots of the output which you should get if you run the relevant script.
 
 Software Downloads:
 
@@ -91,11 +137,9 @@ Links below for further information
 - [Matplotlib as plt](https://matplotlib.org/) 
 - [Seaborn as sns](https://seaborn.pydata.org/)
 
+The Iris Dataset is available to view by running the file named 'iris_dataset.py'. All the columns and rows within the dataset with numerical values in cms are visible.
 
-
-## My Ivestigations/Research
-
-The primary focus of this project is to research the Iris Dataset, to use python scripts and plots to analyse, visualise and clarify whether there are any trends or patterns betweens the Iris species observed in the dataset. On a basis level I extracted statisical data from the dataset to help compare the various attributes of the three species to help identify similarities and differences. On a more complex level I utilised python scripts to generate plots and tables in regards to linear regression and correlation to determine whether any trends were evident. Fisher's studies in regards to the Iris dataset was to use a linear discrinant model to distinguish the various Iris species, in this short project I hope to proof clear differences/similaries between the species and confirm with any particular feature or attribute helps distinguish the various species apart.
+# My Investigations/Research
 
 **Tools Used to Analyses Dataset**:
 - Dataset Describe/View
