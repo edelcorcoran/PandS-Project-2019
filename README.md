@@ -93,29 +93,29 @@ Links below for further information
 
 ## My Work
 
-1. My Project - What it's about/My aims
+ What it's about/My aims
 
 What do I want to learn from project
 
-2. Approach:
-Strengths/Weaknesses of techniques used
 
-3. Possible Tools - Multivariate dataset
-* Dataset Describe
-* Iris Statistics Overview
-* Ratios/Pivot Table - Categorised Means
-* Correlation Matrix
-* Boxplots
-* Linear Regression
+
+**Tools Used to Analyses Dataset**:
+- Dataset Describe
+- Iris Statistics Overview
+- Ratios/Pivot Table - Categorised Means
+- Correlation Matrix
+- Boxplots
+- Linear Regression
 
 In order to get a clear overview and understanding of the data involved I started by downloading a copy of of the Iris Dataset and used the pandas library to view the data:
 
 File: 'iris_dataset.py'
 
 Python Code used: 
-import pandas as pd
-data = pd.read_csv('iris.csv') 
-print(data)
+
+- import pandas as pd
+- data = pd.read_csv('iris.csv') 
+- print(data)
 
 Below is a screenshot of the first ten rows of the output. You can clearly see the columns with the four attributes with numerical values in cms (Petal Length, Petal Width, Sepal Length and Sepal Width) and a column outlining the species (Setosa/Virginica/Versicolor). 
 
@@ -128,10 +128,10 @@ File: 'iris_stats.py'
 
 Python Code used: 
 
-import pandas as pd
-data = ("iris.csv")
-iris = pd.read_csv(data, header=0)
-print(iris.describe())
+- import pandas as pd
+- data = ("iris.csv")
+- iris = pd.read_csv(data, header=0)
+- print(iris.describe())
 
 There is a screenshot of the output of the python script below which illustrates the summary statistics of the dataset.
 
@@ -146,13 +146,8 @@ File: 'pivot_table.py'
 
 Python Code used:
 
-import pandas as pd
-import numpy as np
-
-iris = pd.read_csv('iris.csv')
-iris.head(10)
-data = pd.pivot_table(iris,index=["Species"],values=["SepalLengthCm","SepalWidthCm","PetalLengthCm","PetalWidthCm"],aggfunc=[np.mean,len])
-print(data)
+- iris.head(10)
+- data = pd.pivot_table(iris,index=["Species"],values=["SepalLengthCm","SepalWidthCm","PetalLengthCm","PetalWidthCm"],aggfunc=[np.mean,len])
 
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/pivottable.png">
 </p>
@@ -163,17 +158,13 @@ Files: 'linear_regression.py' / 'linear_regression_species.py'
 
 Python Code used:
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
-iris = pd.read_csv('iris.csv')
-sns.lmplot(x = "SepalLengthCm", y = "SepalWidthCm", hue='Species', data=iris)
-plt.show()
+- iris = pd.read_csv('iris.csv') 
+- sns.lmplot(x = "SepalLengthCm", y = "SepalWidthCm", hue='Species', data=iris)
 
 and also:
 
-sns.lmplot(x = "SepalLengthCm", y = "SepalWidthCm",col='species', hue='Species', data=iris)
-plt.show()
+- sns.lmplot(x = "SepalLengthCm", y = "SepalWidthCm",col='species', hue='Species', data=iris)
+
 
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/linear_regression_species.png">
 </p>
@@ -193,32 +184,23 @@ Files: 'boxplot.py' and 'boxplot_subplots.py'
 
 Python Code used:
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-iris = pd.read_csv('iris.csv')
-sns.set()
-iris.boxplot()
-plt.title('Iris Dataset Boxplot')
-plt.ylabel('Length in CM')
-plt.show()
+-iris = pd.read_csv('iris.csv')
+-sns.set()
+-iris.boxplot()
+-plt.title('Iris Dataset Boxplot')
+-plt.ylabel('Length in CM')
 
 Also for subplots:
 
-iris = pd.read_csv('iris.csv')
-plt.style.use('ggplot')
-plt.subplot(2,2,1)
-sns.boxplot(x="Species", y="SepalLengthCm", data=iris)
-plt.subplot(2,2,2)
-sns.boxplot(x="Species", y="SepalWidthCm", data=iris)
-plt.subplot(2,2,3)
-sns.boxplot(x="Species", y="PetalLengthCm", data=iris)
-plt.subplot(2,2,4)
-sns.boxplot(x="Species", y="PetalWidthCm", data=iris)
-plt.show()
-
+- plt.style.use('ggplot')
+- plt.subplot(2,2,1)
+- sns.boxplot(x="Species", y="SepalLengthCm", data=iris)
+- plt.subplot(2,2,2)
+- sns.boxplot(x="Species", y="SepalWidthCm", data=iris)
+- plt.subplot(2,2,3)
+- sns.boxplot(x="Species", y="PetalLengthCm", data=iris)
+- plt.subplot(2,2,4)
+- sns.boxplot(x="Species", y="PetalWidthCm", data=iris)
 
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/boxplot.png">
 </p>
@@ -232,13 +214,11 @@ Files: 'correlation_matrix.py'
 
 Python Code used:
 
-iris = pd.read_csv("iris.csv")
-corr = iris.corr()
-plt.figure(figsize=(10,8)) 
-ax = plt.axes()
-sns.heatmap(corr, xticklabels=corr.columns.values, yticklabels=corr.columns.values,cmap='plasma', annot=True)
-ax.set_title('Correlation Matrix')
-plt.show()
+- corr = iris.corr()
+- plt.figure(figsize=(10,8)) 
+- ax = plt.axes()
+- sns.heatmap(corr, xticklabels=corr.columns.values, yticklabels=corr.columns.values,cmap='plasma', annot=True)
+- ax.set_title('Correlation Matrix')
 
 <p align="center"><img src="https://github.com/edelcorcoran/PandS-Project-2019/blob/master/correlation_matrix.png">
 </p>
