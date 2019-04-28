@@ -113,6 +113,8 @@ Instrucions to Run:
 - In CMDER once you've navigated to the folder location, you can run ipython to run the code.
 - On the command line select the script you want to open for example type "run" followed by the file name eg. "iris_dataset.py" and click enter/return on your keyboard to open.
 
+- There a word document called 'RunningScripts.docx', this file shows some screenshots of one of the python scripts being run using CMDER and ipython. It may be useful for those new to this software.
+
 Contents:
 - Readme
 - Images Folder - which holds photos obtained online which were saved in case any changes are made to the website which may have effected the photos if linked to the sites.
@@ -137,6 +139,7 @@ Contents:
 - linear_regression_petal.png
 - linear_regression_petal_species.py
 - linear_regression_petal_species.png
+- RunningScripts.docx - This file shows how to run a script in CMDER command line using ipython. (For those unfamiliar with the software)
 - git
 
 The images and python scripts are discussed in detail below and the images are screenshots of the output which you should get if you run the relevant script.
