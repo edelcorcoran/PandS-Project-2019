@@ -8,12 +8,29 @@
 
 # <div align="center">Fisher's Iris Dataset</div>
 
-# Intoduction
+# Introduction
 
 The primary focus of this project is to research the Iris Dataset, to use python scripts and plots to analyse, visualise and clarify whether there are any trends or patterns betweens the Iris species observed in the dataset. On a basis level I extracted statisical data from the dataset to help compare the various attributes of the three species to help identify similarities and differences. On a more complex level I utilised python scripts to generate plots and tables in regards to linear regression and correlation to determine whether any trends were evident. Fisher's wanted to create a linear discriminant model to distinguish the various Iris species, in this short project I hope to proof clear differences/similaries between the species and confirm whether any particular feature or attribute helps distinguish the various species apart.
 
+# Project Layout
 
-# The Iris Dataset
+1. The Iris Dataset - Some background information on the dataset.
+- What it's About?
+- How it was Collected?
+- Some additional infor on the dataset
+2. Ronald Fisher - Information on the man and his work.
+3. Python Code / Contents
+- How to use the scripts/code
+- Contents of the repository
+4. My Investigations/Research
+- Tools Used to Analyses Dataset
+- Outline/Analyse each tool: Includes any plots/tables/graphs and code
+5. Findings/Conclusion
+- Statiistical Overview
+- Tends/Patterns
+6. References - including scources for images and code and bibliography.
+
+# 1. The Iris Dataset
 
 ## What Is It About?
 
@@ -50,8 +67,13 @@ The dataset examines three species of Iris: Iris Setosa, Iris Virginica and Iris
 
 "It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"." []
 
+**Some additional information on the dataset:**
 
-# Sir Ronald Aylmer Fisher
+- "The UCI Machine Learning Repository, which contains what is probably the “official” iris data set, lists over 200 papers referencing the iris data." [7]
+- It's somestimes referred to as the 'Anderson's Iris dataset' as it was he who collected the data.
+- It's a good dataset for predictive modeling & machine learning.
+
+#2.Sir Ronald Aylmer Fisher
 
 <p align="center">Sir Ronald Aylmer Fisher (1890-1962)<p align="center">
   
@@ -72,11 +94,7 @@ Amongst his many other achievements Fisher was in 1933 appointed Professor of Eu
 
 In 1962 at the age of 72 Sir Ronald Fisher died in Adelaide Australia, he suffered from colon cancer. [1,2,3]
 
-Some additional information on the dataset:
-
-
-
-# How To Use The Python Code / Contents 
+#3. How To Use The Python Code / Contents 
 
 This repository contain my images and code scripts to the Iris Project for Module 52445.
 
@@ -98,7 +116,7 @@ Instrucions to Run:
 Contents:
 - Readme
 - Images Folder - which holds photos obtained online which were saved in case any changes are made to the website which may have effected the photos if linked to the sites.
-- iris.cvs
+- iris.cvs 
 - iris_dataset.py
 - irisdataset.png
 - iris_stats.py
@@ -113,7 +131,7 @@ Contents:
 - correlation_matrix.png
 - linear_regression.py
 - linear_regression.png
-- linear_regression_species.py
+- linear_regression_species.py 
 - linear_regression_species.png
 - linear_regression_petal.py
 - linear_regression_petal.png
@@ -139,7 +157,7 @@ Links below for further information
 
 The Iris Dataset is available to view by running the file named 'iris_dataset.py'. All the columns and rows within the dataset with numerical values in cms are visible.
 
-# My Investigations/Research
+#4.My Investigations/Research
 
 **Tools Used to Analyses Dataset**:
 - Dataset Describe/View
@@ -312,6 +330,7 @@ The graphs and tables contained in this project help to visualise and analysis t
 4. [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) viewed 11/04/19
 5. [Kaggle](https://www.kaggle.com/uciml/iris) vieweded 11/04/19 source for iris.csv file
 6. [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set) viewed 27/4/19
+7. [200 papers- iris uses](https://blog.revolutionanalytics.com/2014/08/the-iris-data-set-for-big-data.html)
 
 Bibliography:
 
